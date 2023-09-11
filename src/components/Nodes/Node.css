@@ -1,0 +1,26 @@
+.node {
+	display: inline-block;
+	padding: 8px 16px;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 25px;
+	width: 6em;
+	position: relative;
+	padding-right: 30px;
+}
+.delete-button {
+	position: absolute;
+	top: -6px;
+	right: -9px;
+	display: none;
+	background-color: #1c1c1f;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 5px 10px;
+	border-radius: 25px;
+}
+
+.node:hover .show {
+	display: block;
+}
